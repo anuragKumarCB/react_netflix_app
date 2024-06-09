@@ -17,10 +17,10 @@ const Home = () => {
         <div>
             <Banner />
             <div className='flex flex-col gap-4 bg-gray-800 py-6'>
-                <Row title={"Upcoming Movies"} moviesArray={upcomingMovies} />
-                <Row title={"Popular on netflix"} moviesArray={popularMovies} />
-                <Row title={"Now Playing"} moviesArray={nowPlayingMovies} />
-                <Row title={"Top Rated"} moviesArray={topRatedMovies} />
+                {upcomingMovies && <Row title={"Upcoming Movies"} moviesArray={upcomingMovies} />}
+                {popularMovies && < Row title={"Popular on netflix"} moviesArray={popularMovies} />}
+                {nowPlayingMovies && <Row title={"Now Playing"} moviesArray={nowPlayingMovies} />}
+                {topRatedMovies && <Row title={"Top Rated"} moviesArray={topRatedMovies} />}
             </div>
         </div>
     )
