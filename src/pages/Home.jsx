@@ -20,7 +20,7 @@ const Home = () => {
                 {upcomingMovies && <Row title={"Upcoming Movies"} moviesArray={upcomingMovies} />}
                 {popularMovies && < Row title={"Popular on netflix"} moviesArray={popularMovies} />}
                 {nowPlayingMovies && <Row title={"Now Playing"} moviesArray={nowPlayingMovies} />}
-                {topRatedMovies && <Row title={"Top Rated"} moviesArray={topRatedMovies} />git }
+                {topRatedMovies && <Row title={"Top Rated"} moviesArray={topRatedMovies} />}
             </div>
         </div>
     )
