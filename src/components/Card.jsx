@@ -1,5 +1,4 @@
 import React from 'react'
-import posterImg from "../assets/poster.webp"
 
 const Card = ({ img }) => {
     return (
